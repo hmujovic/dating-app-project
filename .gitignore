@@ -441,6 +441,7 @@ $RECYCLE.BIN/
 ##
 ## Visual Studio Code
 ##
+.vscode/
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
@@ -449,3 +450,4 @@ $RECYCLE.BIN/
 
 appsettings.json
 datingapp.db
+
