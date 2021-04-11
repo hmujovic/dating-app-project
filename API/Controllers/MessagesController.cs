@@ -52,7 +52,6 @@ namespace API.Controllers
             if (await _messageRepository.SaveAllAsync()) return Ok(_mapper.Map<MessageDto>(message));
 
             return BadRequest("Failed to send message");
-
         }
 
         [HttpGet]
@@ -95,7 +94,7 @@ namespace API.Controllers
 
             if (await _messageRepository.SaveAllAsync()) return Ok();
 
-            return BadRequest("Problem deleting the message"); 
+            return BadRequest("Problem deleting the message");
         }
     }
 }
